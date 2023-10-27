@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${cwd}/split_fasta_by_sum_seq_len.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "-fC:/work/development/PythonScripts/split_fasta_by_sum_seq_len/data/Trinity_cov_20x_filt_l180_q23_cr_l15_r5_f.fasta",
+                "-l100000000"
+            ]
+        
+        }
+    ]
+}
